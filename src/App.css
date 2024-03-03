@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+ /* text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  height: 100%; */
+
+ /* background: bgcolor; */
 }
 
 .App-logo {
@@ -14,8 +19,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ /* background-color: #282c34;
+  min-height: 100vh;  */
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +42,22 @@
     transform: rotate(360deg);
   }
 }
+
+.form{
+  color: rgb(107, 107, 121);
+  padding: 15px;
+  display: -moz-grid-group;
+  align-self: center;
+  animation: mymove 5s infinite;
+  border: 1px solid black;
+
+ /* margin-right: 40px; */
+}
+
+.final{
+  background-color: rgb(75, 149, 214);
+  padding: 25px;
+}
+
+
+
